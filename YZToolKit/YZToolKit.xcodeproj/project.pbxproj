@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B9D0A8518E5C6E6007B35FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9D0A8418E5C6E6007B35FC /* Foundation.framework */; };
+		6B9D0A9318E5C6E6007B35FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9D0A9218E5C6E6007B35FC /* XCTest.framework */; };
+		6B9D0A9418E5C6E6007B35FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9D0A8418E5C6E6007B35FC /* Foundation.framework */; };
+		6B9D0A9918E5C6E6007B35FC /* libYZToolKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9D0A8118E5C6E6007B35FC /* libYZToolKit.a */; };
+		6B9D0A9F18E5C6E6007B35FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B9D0A9D18E5C6E6007B35FC /* InfoPlist.strings */; };
+		6B9D0AA118E5C6E6007B35FC /* YZToolKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D0AA018E5C6E6007B35FC /* YZToolKitTests.m */; };
+		6B9D0AF018E5CD70007B35FC /* YZPainterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D0AEF18E5CD70007B35FC /* YZPainterView.m */; };
+		6B9D0AF118E5CD7F007B35FC /* YZPainterView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B9D0AEE18E5CD70007B35FC /* YZPainterView.h */; };
+		6B9D0AF518E5D0CD007B35FC /* YZPullRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D0AF418E5D0CD007B35FC /* YZPullRefreshView.m */; };
+		6B9D0AF618E5D0D9007B35FC /* YZPullRefreshView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B9D0AF318E5D0CD007B35FC /* YZPullRefreshView.h */; };
+		6B9D0AF818E5D11A007B35FC /* YZMacroDefine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B9D0AF718E5D106007B35FC /* YZMacroDefine.h */; };
+		6B9D0AFB18E5D260007B35FC /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D0AFA18E5D260007B35FC /* UIImage+RoundedCorner.m */; };
+		6B9D0AFC18E5D2BE007B35FC /* UIImage+RoundedCorner.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B9D0AF918E5D260007B35FC /* UIImage+RoundedCorner.h */; };
+		6B9D0B0218E5D3EA007B35FC /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D0B0018E5D3EA007B35FC /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6B9D0B0918E5D482007B35FC /* NSString+ThreeDES.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D0B0818E5D482007B35FC /* NSString+ThreeDES.m */; };
+		6B9D0B0A18E5D56A007B35FC /* NSString+ThreeDES.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B9D0B0718E5D482007B35FC /* NSString+ThreeDES.h */; };
+		6B9D0B0B18E5D572007B35FC /* GTMDefines.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B9D0B0118E5D3EA007B35FC /* GTMDefines.h */; };
+		6B9D0B0C18E5D587007B35FC /* GTMBase64.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B9D0AFF18E5D3EA007B35FC /* GTMBase64.h */; };
+		6B9D0B1018E5D63C007B35FC /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D0B0F18E5D63C007B35FC /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6B9D0B1118E5D643007B35FC /* GDataXMLNode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B9D0B0E18E5D63C007B35FC /* GDataXMLNode.h */; };
+		6BEA7F4118E673800001CCA7 /* YZHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA7F3C18E673800001CCA7 /* YZHypnosisView.m */; };
+		6BEA7F4218E673800001CCA7 /* YZTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA7F3E18E673800001CCA7 /* YZTextField.m */; };
+		6BEA7F4318E673800001CCA7 /* YZTouchScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA7F4018E673800001CCA7 /* YZTouchScrollView.m */; };
+		6BEA7F4418E673A30001CCA7 /* YZHypnosisView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6BEA7F3B18E673800001CCA7 /* YZHypnosisView.h */; };
+		6BEA7F4518E673A30001CCA7 /* YZTextField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6BEA7F3D18E673800001CCA7 /* YZTextField.h */; };
+		6BEA7F4618E673A30001CCA7 /* YZTouchScrollView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6BEA7F3F18E673800001CCA7 /* YZTouchScrollView.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B9D0A9718E5C6E6007B35FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B9D0A7918E5C6E6007B35FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B9D0A8018E5C6E6007B35FC;
+			remoteInfo = YZToolKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B9D0A7F18E5C6E6007B35FC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = include;
+			dstSubfolderSpec = 16;
+			files = (
+				6BEA7F4418E673A30001CCA7 /* YZHypnosisView.h in CopyFiles */,
+				6BEA7F4518E673A30001CCA7 /* YZTextField.h in CopyFiles */,
+				6BEA7F4618E673A30001CCA7 /* YZTouchScrollView.h in CopyFiles */,
+				6B9D0B1118E5D643007B35FC /* GDataXMLNode.h in CopyFiles */,
+				6B9D0B0C18E5D587007B35FC /* GTMBase64.h in CopyFiles */,
+				6B9D0B0B18E5D572007B35FC /* GTMDefines.h in CopyFiles */,
+				6B9D0B0A18E5D56A007B35FC /* NSString+ThreeDES.h in CopyFiles */,
+				6B9D0AFC18E5D2BE007B35FC /* UIImage+RoundedCorner.h in CopyFiles */,
+				6B9D0AF818E5D11A007B35FC /* YZMacroDefine.h in CopyFiles */,
+				6B9D0AF618E5D0D9007B35FC /* YZPullRefreshView.h in CopyFiles */,
+				6B9D0AF118E5CD7F007B35FC /* YZPainterView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6B9D0A8118E5C6E6007B35FC /* libYZToolKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYZToolKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9D0A8418E5C6E6007B35FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B9D0A8818E5C6E6007B35FC /* YZToolKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YZToolKit-Prefix.pch"; sourceTree = "<group>"; };
+		6B9D0A9118E5C6E6007B35FC /* YZToolKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZToolKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9D0A9218E5C6E6007B35FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6B9D0A9C18E5C6E6007B35FC /* YZToolKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YZToolKitTests-Info.plist"; sourceTree = "<group>"; };
+		6B9D0A9E18E5C6E6007B35FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B9D0AA018E5C6E6007B35FC /* YZToolKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZToolKitTests.m; sourceTree = "<group>"; };
+		6B9D0AEE18E5CD70007B35FC /* YZPainterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPainterView.h; sourceTree = "<group>"; };
+		6B9D0AEF18E5CD70007B35FC /* YZPainterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPainterView.m; sourceTree = "<group>"; };
+		6B9D0AF318E5D0CD007B35FC /* YZPullRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPullRefreshView.h; sourceTree = "<group>"; };
+		6B9D0AF418E5D0CD007B35FC /* YZPullRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPullRefreshView.m; sourceTree = "<group>"; };
+		6B9D0AF718E5D106007B35FC /* YZMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZMacroDefine.h; sourceTree = "<group>"; };
+		6B9D0AF918E5D260007B35FC /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		6B9D0AFA18E5D260007B35FC /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		6B9D0AFF18E5D3EA007B35FC /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		6B9D0B0018E5D3EA007B35FC /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		6B9D0B0118E5D3EA007B35FC /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		6B9D0B0718E5D482007B35FC /* NSString+ThreeDES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ThreeDES.h"; sourceTree = "<group>"; };
+		6B9D0B0818E5D482007B35FC /* NSString+ThreeDES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ThreeDES.m"; sourceTree = "<group>"; };
+		6B9D0B0E18E5D63C007B35FC /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		6B9D0B0F18E5D63C007B35FC /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		6BEA7F3B18E673800001CCA7 /* YZHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZHypnosisView.h; sourceTree = "<group>"; };
+		6BEA7F3C18E673800001CCA7 /* YZHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZHypnosisView.m; sourceTree = "<group>"; };
+		6BEA7F3D18E673800001CCA7 /* YZTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZTextField.h; sourceTree = "<group>"; };
+		6BEA7F3E18E673800001CCA7 /* YZTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTextField.m; sourceTree = "<group>"; };
+		6BEA7F3F18E673800001CCA7 /* YZTouchScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZTouchScrollView.h; sourceTree = "<group>"; };
+		6BEA7F4018E673800001CCA7 /* YZTouchScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTouchScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B9D0A7E18E5C6E6007B35FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9D0A8518E5C6E6007B35FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9D0A8E18E5C6E6007B35FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9D0A9318E5C6E6007B35FC /* XCTest.framework in Frameworks */,
+				6B9D0A9918E5C6E6007B35FC /* libYZToolKit.a in Frameworks */,
+				6B9D0A9418E5C6E6007B35FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B9D0A7818E5C6E6007B35FC = {
+			isa = PBXGroup;
+			children = (
+				6B9D0A8618E5C6E6007B35FC /* YZToolKit */,
+				6B9D0A9A18E5C6E6007B35FC /* YZToolKitTests */,
+				6B9D0A8318E5C6E6007B35FC /* Frameworks */,
+				6B9D0A8218E5C6E6007B35FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B9D0A8218E5C6E6007B35FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B9D0A8118E5C6E6007B35FC /* libYZToolKit.a */,
+				6B9D0A9118E5C6E6007B35FC /* YZToolKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B9D0A8318E5C6E6007B35FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B9D0A8418E5C6E6007B35FC /* Foundation.framework */,
+				6B9D0A9218E5C6E6007B35FC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B9D0A8618E5C6E6007B35FC /* YZToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				6B9D0B0D18E5D62B007B35FC /* XMLParser */,
+				6B9D0B0318E5D42C007B35FC /* 3DES */,
+				6B9D0AFE18E5D3D4007B35FC /* Base64 */,
+				6B9D0AEE18E5CD70007B35FC /* YZPainterView.h */,
+				6B9D0AEF18E5CD70007B35FC /* YZPainterView.m */,
+				6B9D0AF918E5D260007B35FC /* UIImage+RoundedCorner.h */,
+				6B9D0AFA18E5D260007B35FC /* UIImage+RoundedCorner.m */,
+				6B9D0AF318E5D0CD007B35FC /* YZPullRefreshView.h */,
+				6B9D0AF418E5D0CD007B35FC /* YZPullRefreshView.m */,
+				6B9D0AF718E5D106007B35FC /* YZMacroDefine.h */,
+				6BEA7F3B18E673800001CCA7 /* YZHypnosisView.h */,
+				6BEA7F3C18E673800001CCA7 /* YZHypnosisView.m */,
+				6BEA7F3D18E673800001CCA7 /* YZTextField.h */,
+				6BEA7F3E18E673800001CCA7 /* YZTextField.m */,
+				6BEA7F3F18E673800001CCA7 /* YZTouchScrollView.h */,
+				6BEA7F4018E673800001CCA7 /* YZTouchScrollView.m */,
+				6B9D0A8718E5C6E6007B35FC /* Supporting Files */,
+			);
+			path = YZToolKit;
+			sourceTree = "<group>";
+		};
+		6B9D0A8718E5C6E6007B35FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B9D0A8818E5C6E6007B35FC /* YZToolKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B9D0A9A18E5C6E6007B35FC /* YZToolKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B9D0AA018E5C6E6007B35FC /* YZToolKitTests.m */,
+				6B9D0A9B18E5C6E6007B35FC /* Supporting Files */,
+			);
+			path = YZToolKitTests;
+			sourceTree = "<group>";
+		};
+		6B9D0A9B18E5C6E6007B35FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B9D0A9C18E5C6E6007B35FC /* YZToolKitTests-Info.plist */,
+				6B9D0A9D18E5C6E6007B35FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B9D0AFE18E5D3D4007B35FC /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				6B9D0AFF18E5D3EA007B35FC /* GTMBase64.h */,
+				6B9D0B0018E5D3EA007B35FC /* GTMBase64.m */,
+				6B9D0B0118E5D3EA007B35FC /* GTMDefines.h */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		6B9D0B0318E5D42C007B35FC /* 3DES */ = {
+			isa = PBXGroup;
+			children = (
+				6B9D0B0718E5D482007B35FC /* NSString+ThreeDES.h */,
+				6B9D0B0818E5D482007B35FC /* NSString+ThreeDES.m */,
+			);
+			path = 3DES;
+			sourceTree = "<group>";
+		};
+		6B9D0B0D18E5D62B007B35FC /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				6B9D0B0E18E5D63C007B35FC /* GDataXMLNode.h */,
+				6B9D0B0F18E5D63C007B35FC /* GDataXMLNode.m */,
+			);
+			path = XMLParser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B9D0A8018E5C6E6007B35FC /* YZToolKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B9D0AA418E5C6E6007B35FC /* Build configuration list for PBXNativeTarget "YZToolKit" */;
+			buildPhases = (
+				6B9D0A7D18E5C6E6007B35FC /* Sources */,
+				6B9D0A7E18E5C6E6007B35FC /* Frameworks */,
+				6B9D0A7F18E5C6E6007B35FC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZToolKit;
+			productName = YZToolKit;
+			productReference = 6B9D0A8118E5C6E6007B35FC /* libYZToolKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6B9D0A9018E5C6E6007B35FC /* YZToolKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B9D0AA718E5C6E6007B35FC /* Build configuration list for PBXNativeTarget "YZToolKitTests" */;
+			buildPhases = (
+				6B9D0A8D18E5C6E6007B35FC /* Sources */,
+				6B9D0A8E18E5C6E6007B35FC /* Frameworks */,
+				6B9D0A8F18E5C6E6007B35FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B9D0A9818E5C6E6007B35FC /* PBXTargetDependency */,
+			);
+			name = YZToolKitTests;
+			productName = YZToolKitTests;
+			productReference = 6B9D0A9118E5C6E6007B35FC /* YZToolKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B9D0A7918E5C6E6007B35FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 6B9D0A7C18E5C6E6007B35FC /* Build configuration list for PBXProject "YZToolKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B9D0A7818E5C6E6007B35FC;
+			productRefGroup = 6B9D0A8218E5C6E6007B35FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B9D0A8018E5C6E6007B35FC /* YZToolKit */,
+				6B9D0A9018E5C6E6007B35FC /* YZToolKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B9D0A8F18E5C6E6007B35FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9D0A9F18E5C6E6007B35FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B9D0A7D18E5C6E6007B35FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEA7F4318E673800001CCA7 /* YZTouchScrollView.m in Sources */,
+				6B9D0AF518E5D0CD007B35FC /* YZPullRefreshView.m in Sources */,
+				6B9D0B0918E5D482007B35FC /* NSString+ThreeDES.m in Sources */,
+				6B9D0AFB18E5D260007B35FC /* UIImage+RoundedCorner.m in Sources */,
+				6B9D0AF018E5CD70007B35FC /* YZPainterView.m in Sources */,
+				6BEA7F4218E673800001CCA7 /* YZTextField.m in Sources */,
+				6BEA7F4118E673800001CCA7 /* YZHypnosisView.m in Sources */,
+				6B9D0B0218E5D3EA007B35FC /* GTMBase64.m in Sources */,
+				6B9D0B1018E5D63C007B35FC /* GDataXMLNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9D0A8D18E5C6E6007B35FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9D0AA118E5C6E6007B35FC /* YZToolKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B9D0A9818E5C6E6007B35FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B9D0A8018E5C6E6007B35FC /* YZToolKit */;
+			targetProxy = 6B9D0A9718E5C6E6007B35FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B9D0A9D18E5C6E6007B35FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B9D0A9E18E5C6E6007B35FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B9D0AA218E5C6E6007B35FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B9D0AA318E5C6E6007B35FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B9D0AA518E5C6E6007B35FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "../YZToolKitDemo/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DSTROOT = /tmp/YZToolKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YZToolKit/YZToolKit-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6B9D0AA618E5C6E6007B35FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "../YZToolKitDemo/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DSTROOT = /tmp/YZToolKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YZToolKit/YZToolKit-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6B9D0AA818E5C6E6007B35FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YZToolKit/YZToolKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YZToolKitTests/YZToolKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6B9D0AA918E5C6E6007B35FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YZToolKit/YZToolKit-Prefix.pch";
+				INFOPLIST_FILE = "YZToolKitTests/YZToolKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B9D0A7C18E5C6E6007B35FC /* Build configuration list for PBXProject "YZToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9D0AA218E5C6E6007B35FC /* Debug */,
+				6B9D0AA318E5C6E6007B35FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B9D0AA418E5C6E6007B35FC /* Build configuration list for PBXNativeTarget "YZToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9D0AA518E5C6E6007B35FC /* Debug */,
+				6B9D0AA618E5C6E6007B35FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B9D0AA718E5C6E6007B35FC /* Build configuration list for PBXNativeTarget "YZToolKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9D0AA818E5C6E6007B35FC /* Debug */,
+				6B9D0AA918E5C6E6007B35FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B9D0A7918E5C6E6007B35FC /* Project object */;
+}

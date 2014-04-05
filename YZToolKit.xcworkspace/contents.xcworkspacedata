@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:YZToolKit/YZToolKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:YZToolKitDemo/YZToolKitDemo.xcodeproj">
+   </FileRef>
+</Workspace>
