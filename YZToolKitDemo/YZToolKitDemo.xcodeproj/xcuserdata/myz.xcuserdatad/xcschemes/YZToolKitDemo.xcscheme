@@ -38,6 +38,26 @@
                ReferencedContainer = "container:YZToolKitDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6BF81486191B60EE00B3098D"
+               BuildableName = "YZToolKitDemo Tests.xctest"
+               BlueprintName = "YZToolKitDemo Tests"
+               ReferencedContainer = "container:YZToolKitDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6BF814B2191B616400B3098D"
+               BuildableName = "YZToolKitTestTests.xctest"
+               BlueprintName = "YZToolKitTestTests"
+               ReferencedContainer = "container:YZToolKitDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

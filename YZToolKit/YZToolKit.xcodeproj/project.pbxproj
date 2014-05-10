@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B6CE36F191C8F2D00D2021A /* YZToolKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6BF8150D191B725400B3098D /* YZToolKit.h */; };
+		6B6CE370191C8F2D00D2021A /* YZCategories.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6BF81510191B732300B3098D /* YZCategories.h */; };
+		6B6CE371191C8FD800D2021A /* YZPhotoAlumViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6BF81514191B796900B3098D /* YZPhotoAlumViewController.h */; };
+		6B6CE372191C8FD800D2021A /* YZHypnosisView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6BF814E8191B6F3E00B3098D /* YZHypnosisView.h */; };
+		6B6CE373191C8FD800D2021A /* YZPainterView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6BF814EA191B6F3E00B3098D /* YZPainterView.h */; };
+		6B6CE374191C8FD800D2021A /* YZPullRefreshView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6BF814EC191B6F3E00B3098D /* YZPullRefreshView.h */; };
+		6B6CE375191C8FD800D2021A /* YZTextField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6BF814EE191B6F3E00B3098D /* YZTextField.h */; };
+		6B6CE376191C8FD800D2021A /* YZTouchScrollView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6BF814F0191B6F3E00B3098D /* YZTouchScrollView.h */; };
 		6B9D0A8518E5C6E6007B35FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9D0A8418E5C6E6007B35FC /* Foundation.framework */; };
 		6B9D0A9318E5C6E6007B35FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9D0A9218E5C6E6007B35FC /* XCTest.framework */; };
 		6B9D0A9418E5C6E6007B35FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9D0A8418E5C6E6007B35FC /* Foundation.framework */; };
 		6B9D0A9918E5C6E6007B35FC /* libYZToolKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9D0A8118E5C6E6007B35FC /* libYZToolKit.a */; };
 		6B9D0A9F18E5C6E6007B35FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B9D0A9D18E5C6E6007B35FC /* InfoPlist.strings */; };
 		6B9D0AA118E5C6E6007B35FC /* YZToolKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D0AA018E5C6E6007B35FC /* YZToolKitTests.m */; };
-		6B9D0AF018E5CD70007B35FC /* YZPainterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D0AEF18E5CD70007B35FC /* YZPainterView.m */; };
-		6B9D0AF118E5CD7F007B35FC /* YZPainterView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B9D0AEE18E5CD70007B35FC /* YZPainterView.h */; };
-		6B9D0AF518E5D0CD007B35FC /* YZPullRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D0AF418E5D0CD007B35FC /* YZPullRefreshView.m */; };
-		6B9D0AF618E5D0D9007B35FC /* YZPullRefreshView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B9D0AF318E5D0CD007B35FC /* YZPullRefreshView.h */; };
 		6B9D0AF818E5D11A007B35FC /* YZMacroDefine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B9D0AF718E5D106007B35FC /* YZMacroDefine.h */; };
-		6B9D0AFB18E5D260007B35FC /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D0AFA18E5D260007B35FC /* UIImage+RoundedCorner.m */; };
-		6B9D0AFC18E5D2BE007B35FC /* UIImage+RoundedCorner.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B9D0AF918E5D260007B35FC /* UIImage+RoundedCorner.h */; };
-		6B9D0B0218E5D3EA007B35FC /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D0B0018E5D3EA007B35FC /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		6B9D0B0918E5D482007B35FC /* NSString+ThreeDES.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D0B0818E5D482007B35FC /* NSString+ThreeDES.m */; };
-		6B9D0B0A18E5D56A007B35FC /* NSString+ThreeDES.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B9D0B0718E5D482007B35FC /* NSString+ThreeDES.h */; };
-		6B9D0B0B18E5D572007B35FC /* GTMDefines.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B9D0B0118E5D3EA007B35FC /* GTMDefines.h */; };
-		6B9D0B0C18E5D587007B35FC /* GTMBase64.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B9D0AFF18E5D3EA007B35FC /* GTMBase64.h */; };
-		6B9D0B1018E5D63C007B35FC /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D0B0F18E5D63C007B35FC /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		6B9D0B1118E5D643007B35FC /* GDataXMLNode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B9D0B0E18E5D63C007B35FC /* GDataXMLNode.h */; };
-		6BEA7F4118E673800001CCA7 /* YZHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA7F3C18E673800001CCA7 /* YZHypnosisView.m */; };
-		6BEA7F4218E673800001CCA7 /* YZTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA7F3E18E673800001CCA7 /* YZTextField.m */; };
-		6BEA7F4318E673800001CCA7 /* YZTouchScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA7F4018E673800001CCA7 /* YZTouchScrollView.m */; };
-		6BEA7F4418E673A30001CCA7 /* YZHypnosisView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6BEA7F3B18E673800001CCA7 /* YZHypnosisView.h */; };
-		6BEA7F4518E673A30001CCA7 /* YZTextField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6BEA7F3D18E673800001CCA7 /* YZTextField.h */; };
-		6BEA7F4618E673A30001CCA7 /* YZTouchScrollView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6BEA7F3F18E673800001CCA7 /* YZTouchScrollView.h */; };
+		6BF814E5191B6EBF00B3098D /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF814E0191B6EBF00B3098D /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6BF814E6191B6EBF00B3098D /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF814E4191B6EBF00B3098D /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6BF814F2191B6F3E00B3098D /* YZHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF814E9191B6F3E00B3098D /* YZHypnosisView.m */; };
+		6BF814F3191B6F3E00B3098D /* YZPainterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF814EB191B6F3E00B3098D /* YZPainterView.m */; };
+		6BF814F4191B6F3E00B3098D /* YZPullRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF814ED191B6F3E00B3098D /* YZPullRefreshView.m */; };
+		6BF814F5191B6F3E00B3098D /* YZTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF814EF191B6F3E00B3098D /* YZTextField.m */; };
+		6BF814F6191B6F3E00B3098D /* YZTouchScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF814F1191B6F3E00B3098D /* YZTouchScrollView.m */; };
+		6BF81502191B6FBC00B3098D /* NSString+ThreeDES.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF814FE191B6FBC00B3098D /* NSString+ThreeDES.m */; };
+		6BF81503191B6FBC00B3098D /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF81501191B6FBC00B3098D /* UIImage+RoundedCorner.m */; };
+		6BF81516191B796900B3098D /* YZPhotoAlumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF81515191B796900B3098D /* YZPhotoAlumViewController.m */; };
+		6BF8151F191B8A4200B3098D /* UIColor+YZAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8151E191B8A4200B3098D /* UIColor+YZAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,17 +52,15 @@
 			dstPath = include;
 			dstSubfolderSpec = 16;
 			files = (
-				6BEA7F4418E673A30001CCA7 /* YZHypnosisView.h in CopyFiles */,
-				6BEA7F4518E673A30001CCA7 /* YZTextField.h in CopyFiles */,
-				6BEA7F4618E673A30001CCA7 /* YZTouchScrollView.h in CopyFiles */,
-				6B9D0B1118E5D643007B35FC /* GDataXMLNode.h in CopyFiles */,
-				6B9D0B0C18E5D587007B35FC /* GTMBase64.h in CopyFiles */,
-				6B9D0B0B18E5D572007B35FC /* GTMDefines.h in CopyFiles */,
-				6B9D0B0A18E5D56A007B35FC /* NSString+ThreeDES.h in CopyFiles */,
-				6B9D0AFC18E5D2BE007B35FC /* UIImage+RoundedCorner.h in CopyFiles */,
+				6B6CE371191C8FD800D2021A /* YZPhotoAlumViewController.h in CopyFiles */,
+				6B6CE372191C8FD800D2021A /* YZHypnosisView.h in CopyFiles */,
+				6B6CE373191C8FD800D2021A /* YZPainterView.h in CopyFiles */,
+				6B6CE374191C8FD800D2021A /* YZPullRefreshView.h in CopyFiles */,
+				6B6CE375191C8FD800D2021A /* YZTextField.h in CopyFiles */,
+				6B6CE376191C8FD800D2021A /* YZTouchScrollView.h in CopyFiles */,
+				6B6CE36F191C8F2D00D2021A /* YZToolKit.h in CopyFiles */,
+				6B6CE370191C8F2D00D2021A /* YZCategories.h in CopyFiles */,
 				6B9D0AF818E5D11A007B35FC /* YZMacroDefine.h in CopyFiles */,
-				6B9D0AF618E5D0D9007B35FC /* YZPullRefreshView.h in CopyFiles */,
-				6B9D0AF118E5CD7F007B35FC /* YZPainterView.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,26 +75,32 @@
 		6B9D0A9C18E5C6E6007B35FC /* YZToolKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YZToolKitTests-Info.plist"; sourceTree = "<group>"; };
 		6B9D0A9E18E5C6E6007B35FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B9D0AA018E5C6E6007B35FC /* YZToolKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZToolKitTests.m; sourceTree = "<group>"; };
-		6B9D0AEE18E5CD70007B35FC /* YZPainterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPainterView.h; sourceTree = "<group>"; };
-		6B9D0AEF18E5CD70007B35FC /* YZPainterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPainterView.m; sourceTree = "<group>"; };
-		6B9D0AF318E5D0CD007B35FC /* YZPullRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPullRefreshView.h; sourceTree = "<group>"; };
-		6B9D0AF418E5D0CD007B35FC /* YZPullRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPullRefreshView.m; sourceTree = "<group>"; };
 		6B9D0AF718E5D106007B35FC /* YZMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZMacroDefine.h; sourceTree = "<group>"; };
-		6B9D0AF918E5D260007B35FC /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
-		6B9D0AFA18E5D260007B35FC /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
-		6B9D0AFF18E5D3EA007B35FC /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
-		6B9D0B0018E5D3EA007B35FC /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
-		6B9D0B0118E5D3EA007B35FC /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		6B9D0B0718E5D482007B35FC /* NSString+ThreeDES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ThreeDES.h"; sourceTree = "<group>"; };
-		6B9D0B0818E5D482007B35FC /* NSString+ThreeDES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ThreeDES.m"; sourceTree = "<group>"; };
-		6B9D0B0E18E5D63C007B35FC /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
-		6B9D0B0F18E5D63C007B35FC /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
-		6BEA7F3B18E673800001CCA7 /* YZHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZHypnosisView.h; sourceTree = "<group>"; };
-		6BEA7F3C18E673800001CCA7 /* YZHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZHypnosisView.m; sourceTree = "<group>"; };
-		6BEA7F3D18E673800001CCA7 /* YZTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZTextField.h; sourceTree = "<group>"; };
-		6BEA7F3E18E673800001CCA7 /* YZTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTextField.m; sourceTree = "<group>"; };
-		6BEA7F3F18E673800001CCA7 /* YZTouchScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZTouchScrollView.h; sourceTree = "<group>"; };
-		6BEA7F4018E673800001CCA7 /* YZTouchScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTouchScrollView.m; sourceTree = "<group>"; };
+		6BF814DF191B6EBF00B3098D /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		6BF814E0191B6EBF00B3098D /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		6BF814E1191B6EBF00B3098D /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		6BF814E3191B6EBF00B3098D /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		6BF814E4191B6EBF00B3098D /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		6BF814E8191B6F3E00B3098D /* YZHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZHypnosisView.h; sourceTree = "<group>"; };
+		6BF814E9191B6F3E00B3098D /* YZHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZHypnosisView.m; sourceTree = "<group>"; };
+		6BF814EA191B6F3E00B3098D /* YZPainterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPainterView.h; sourceTree = "<group>"; };
+		6BF814EB191B6F3E00B3098D /* YZPainterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPainterView.m; sourceTree = "<group>"; };
+		6BF814EC191B6F3E00B3098D /* YZPullRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPullRefreshView.h; sourceTree = "<group>"; };
+		6BF814ED191B6F3E00B3098D /* YZPullRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPullRefreshView.m; sourceTree = "<group>"; };
+		6BF814EE191B6F3E00B3098D /* YZTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZTextField.h; sourceTree = "<group>"; };
+		6BF814EF191B6F3E00B3098D /* YZTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTextField.m; sourceTree = "<group>"; };
+		6BF814F0191B6F3E00B3098D /* YZTouchScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZTouchScrollView.h; sourceTree = "<group>"; };
+		6BF814F1191B6F3E00B3098D /* YZTouchScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTouchScrollView.m; sourceTree = "<group>"; };
+		6BF814FD191B6FBC00B3098D /* NSString+ThreeDES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ThreeDES.h"; sourceTree = "<group>"; };
+		6BF814FE191B6FBC00B3098D /* NSString+ThreeDES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ThreeDES.m"; sourceTree = "<group>"; };
+		6BF81500191B6FBC00B3098D /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		6BF81501191B6FBC00B3098D /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		6BF8150D191B725400B3098D /* YZToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZToolKit.h; sourceTree = "<group>"; };
+		6BF81510191B732300B3098D /* YZCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZCategories.h; sourceTree = "<group>"; };
+		6BF81514191B796900B3098D /* YZPhotoAlumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPhotoAlumViewController.h; sourceTree = "<group>"; };
+		6BF81515191B796900B3098D /* YZPhotoAlumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPhotoAlumViewController.m; sourceTree = "<group>"; };
+		6BF8151D191B8A4200B3098D /* UIColor+YZAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YZAdditions.h"; sourceTree = "<group>"; };
+		6BF8151E191B8A4200B3098D /* UIColor+YZAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YZAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,22 +156,11 @@
 		6B9D0A8618E5C6E6007B35FC /* YZToolKit */ = {
 			isa = PBXGroup;
 			children = (
-				6B9D0B0D18E5D62B007B35FC /* XMLParser */,
-				6B9D0B0318E5D42C007B35FC /* 3DES */,
-				6B9D0AFE18E5D3D4007B35FC /* Base64 */,
-				6B9D0AEE18E5CD70007B35FC /* YZPainterView.h */,
-				6B9D0AEF18E5CD70007B35FC /* YZPainterView.m */,
-				6B9D0AF918E5D260007B35FC /* UIImage+RoundedCorner.h */,
-				6B9D0AFA18E5D260007B35FC /* UIImage+RoundedCorner.m */,
-				6B9D0AF318E5D0CD007B35FC /* YZPullRefreshView.h */,
-				6B9D0AF418E5D0CD007B35FC /* YZPullRefreshView.m */,
-				6B9D0AF718E5D106007B35FC /* YZMacroDefine.h */,
-				6BEA7F3B18E673800001CCA7 /* YZHypnosisView.h */,
-				6BEA7F3C18E673800001CCA7 /* YZHypnosisView.m */,
-				6BEA7F3D18E673800001CCA7 /* YZTextField.h */,
-				6BEA7F3E18E673800001CCA7 /* YZTextField.m */,
-				6BEA7F3F18E673800001CCA7 /* YZTouchScrollView.h */,
-				6BEA7F4018E673800001CCA7 /* YZTouchScrollView.m */,
+				6BF8150D191B725400B3098D /* YZToolKit.h */,
+				6BF81510191B732300B3098D /* YZCategories.h */,
+				6BF814E7191B6F0E00B3098D /* UIKit */,
+				6BF814DD191B6EBF00B3098D /* OpenSource */,
+				6BF814D7191B6E1D00B3098D /* Categories */,
 				6B9D0A8718E5C6E6007B35FC /* Supporting Files */,
 			);
 			path = YZToolKit;
@@ -176,6 +169,7 @@
 		6B9D0A8718E5C6E6007B35FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6B9D0AF718E5D106007B35FC /* YZMacroDefine.h */,
 				6B9D0A8818E5C6E6007B35FC /* YZToolKit-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -199,32 +193,97 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6B9D0AFE18E5D3D4007B35FC /* Base64 */ = {
+		6BF814D7191B6E1D00B3098D /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				6B9D0AFF18E5D3EA007B35FC /* GTMBase64.h */,
-				6B9D0B0018E5D3EA007B35FC /* GTMBase64.m */,
-				6B9D0B0118E5D3EA007B35FC /* GTMDefines.h */,
+				6BF81519191B89ED00B3098D /* UIColor */,
+				6BF814FC191B6FBC00B3098D /* NSString */,
+				6BF814FF191B6FBC00B3098D /* UIImage */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		6BF814DD191B6EBF00B3098D /* OpenSource */ = {
+			isa = PBXGroup;
+			children = (
+				6BF814DE191B6EBF00B3098D /* Base64 */,
+				6BF814E2191B6EBF00B3098D /* XMLParser */,
+			);
+			name = OpenSource;
+			path = opensource;
+			sourceTree = "<group>";
+		};
+		6BF814DE191B6EBF00B3098D /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				6BF814DF191B6EBF00B3098D /* GTMBase64.h */,
+				6BF814E0191B6EBF00B3098D /* GTMBase64.m */,
+				6BF814E1191B6EBF00B3098D /* GTMDefines.h */,
 			);
 			path = Base64;
 			sourceTree = "<group>";
 		};
-		6B9D0B0318E5D42C007B35FC /* 3DES */ = {
+		6BF814E2191B6EBF00B3098D /* XMLParser */ = {
 			isa = PBXGroup;
 			children = (
-				6B9D0B0718E5D482007B35FC /* NSString+ThreeDES.h */,
-				6B9D0B0818E5D482007B35FC /* NSString+ThreeDES.m */,
-			);
-			path = 3DES;
-			sourceTree = "<group>";
-		};
-		6B9D0B0D18E5D62B007B35FC /* XMLParser */ = {
-			isa = PBXGroup;
-			children = (
-				6B9D0B0E18E5D63C007B35FC /* GDataXMLNode.h */,
-				6B9D0B0F18E5D63C007B35FC /* GDataXMLNode.m */,
+				6BF814E3191B6EBF00B3098D /* GDataXMLNode.h */,
+				6BF814E4191B6EBF00B3098D /* GDataXMLNode.m */,
 			);
 			path = XMLParser;
+			sourceTree = "<group>";
+		};
+		6BF814E7191B6F0E00B3098D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6BF81513191B794A00B3098D /* photoPicker */,
+				6BF814E8191B6F3E00B3098D /* YZHypnosisView.h */,
+				6BF814E9191B6F3E00B3098D /* YZHypnosisView.m */,
+				6BF814EA191B6F3E00B3098D /* YZPainterView.h */,
+				6BF814EB191B6F3E00B3098D /* YZPainterView.m */,
+				6BF814EC191B6F3E00B3098D /* YZPullRefreshView.h */,
+				6BF814ED191B6F3E00B3098D /* YZPullRefreshView.m */,
+				6BF814EE191B6F3E00B3098D /* YZTextField.h */,
+				6BF814EF191B6F3E00B3098D /* YZTextField.m */,
+				6BF814F0191B6F3E00B3098D /* YZTouchScrollView.h */,
+				6BF814F1191B6F3E00B3098D /* YZTouchScrollView.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		6BF814FC191B6FBC00B3098D /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				6BF814FD191B6FBC00B3098D /* NSString+ThreeDES.h */,
+				6BF814FE191B6FBC00B3098D /* NSString+ThreeDES.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		6BF814FF191B6FBC00B3098D /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				6BF81500191B6FBC00B3098D /* UIImage+RoundedCorner.h */,
+				6BF81501191B6FBC00B3098D /* UIImage+RoundedCorner.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		6BF81513191B794A00B3098D /* photoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				6BF81514191B796900B3098D /* YZPhotoAlumViewController.h */,
+				6BF81515191B796900B3098D /* YZPhotoAlumViewController.m */,
+			);
+			name = photoPicker;
+			sourceTree = "<group>";
+		};
+		6BF81519191B89ED00B3098D /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				6BF8151D191B8A4200B3098D /* UIColor+YZAdditions.h */,
+				6BF8151E191B8A4200B3098D /* UIColor+YZAdditions.m */,
+			);
+			name = UIColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,15 +367,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BEA7F4318E673800001CCA7 /* YZTouchScrollView.m in Sources */,
-				6B9D0AF518E5D0CD007B35FC /* YZPullRefreshView.m in Sources */,
-				6B9D0B0918E5D482007B35FC /* NSString+ThreeDES.m in Sources */,
-				6B9D0AFB18E5D260007B35FC /* UIImage+RoundedCorner.m in Sources */,
-				6B9D0AF018E5CD70007B35FC /* YZPainterView.m in Sources */,
-				6BEA7F4218E673800001CCA7 /* YZTextField.m in Sources */,
-				6BEA7F4118E673800001CCA7 /* YZHypnosisView.m in Sources */,
-				6B9D0B0218E5D3EA007B35FC /* GTMBase64.m in Sources */,
-				6B9D0B1018E5D63C007B35FC /* GDataXMLNode.m in Sources */,
+				6BF814E5191B6EBF00B3098D /* GTMBase64.m in Sources */,
+				6BF81503191B6FBC00B3098D /* UIImage+RoundedCorner.m in Sources */,
+				6BF814E6191B6EBF00B3098D /* GDataXMLNode.m in Sources */,
+				6BF81516191B796900B3098D /* YZPhotoAlumViewController.m in Sources */,
+				6BF814F2191B6F3E00B3098D /* YZHypnosisView.m in Sources */,
+				6BF8151F191B8A4200B3098D /* UIColor+YZAdditions.m in Sources */,
+				6BF814F5191B6F3E00B3098D /* YZTextField.m in Sources */,
+				6BF814F3191B6F3E00B3098D /* YZPainterView.m in Sources */,
+				6BF81502191B6FBC00B3098D /* NSString+ThreeDES.m in Sources */,
+				6BF814F4191B6F3E00B3098D /* YZPullRefreshView.m in Sources */,
+				6BF814F6191B6F3E00B3098D /* YZTouchScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

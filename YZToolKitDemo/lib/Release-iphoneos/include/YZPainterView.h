@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface YZPainterView : UIView
-
+@property (nonatomic, strong) UIImageView *drawImageView;
 @end

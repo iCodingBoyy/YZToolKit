@@ -7,16 +7,18 @@
 //
 
 #import "AppDelegate.h"
-#import <YZPainterView.h>
+#import "MainViewController.h"
+
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    YZPainterView *paintView = [[YZPainterView alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
-    [self.window addSubview:paintView];
+
+    _mainViewController = [[MainViewController alloc]init];
+    _navigationController = [[UINavigationController alloc]initWithRootViewController:_mainViewController];
+    self.window.rootViewController = _navigationController;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

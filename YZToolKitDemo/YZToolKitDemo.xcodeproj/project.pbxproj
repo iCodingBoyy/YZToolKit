@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B6CE36E191C8EBA00D2021A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6CE36D191C8EBA00D2021A /* MainViewController.m */; };
 		6B9D0AB718E5C709007B35FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9D0AB618E5C709007B35FC /* Foundation.framework */; };
 		6B9D0AB918E5C709007B35FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9D0AB818E5C709007B35FC /* CoreGraphics.framework */; };
 		6B9D0ABB18E5C709007B35FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9D0ABA18E5C709007B35FC /* UIKit.framework */; };
@@ -14,26 +15,22 @@
 		6B9D0AC318E5C709007B35FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D0AC218E5C709007B35FC /* main.m */; };
 		6B9D0AC718E5C709007B35FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D0AC618E5C709007B35FC /* AppDelegate.m */; };
 		6B9D0AC918E5C709007B35FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B9D0AC818E5C709007B35FC /* Images.xcassets */; };
-		6B9D0AD018E5C709007B35FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9D0ACF18E5C709007B35FC /* XCTest.framework */; };
-		6B9D0AD118E5C709007B35FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9D0AB618E5C709007B35FC /* Foundation.framework */; };
-		6B9D0AD218E5C709007B35FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9D0ABA18E5C709007B35FC /* UIKit.framework */; };
-		6B9D0ADA18E5C709007B35FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B9D0AD818E5C709007B35FC /* InfoPlist.strings */; };
-		6B9D0ADC18E5C709007B35FC /* YZToolKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9D0ADB18E5C709007B35FC /* YZToolKitDemoTests.m */; };
 		6B9D0AE618E5C7E6007B35FC /* libYZToolKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9D0AE518E5C7E6007B35FC /* libYZToolKit.a */; };
 		6B9D0B1518E5D711007B35FC /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9D0B1418E5D711007B35FC /* libxml2.dylib */; };
+		6BF8149E191B616400B3098D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9D0AB618E5C709007B35FC /* Foundation.framework */; };
+		6BF8149F191B616400B3098D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9D0AB818E5C709007B35FC /* CoreGraphics.framework */; };
+		6BF814A0191B616400B3098D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9D0ABA18E5C709007B35FC /* UIKit.framework */; };
+		6BF814A6191B616400B3098D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BF814A4191B616400B3098D /* InfoPlist.strings */; };
+		6BF814A8191B616400B3098D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF814A7191B616400B3098D /* main.m */; };
+		6BF814AE191B616400B3098D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF814AD191B616400B3098D /* Images.xcassets */; };
+		6BF814CC191B61E100B3098D /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF814CB191B61E100B3098D /* GHUnitIOS.framework */; };
+		6BF814D2191B62BC00B3098D /* GHUnitSampleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF814D1191B62BC00B3098D /* GHUnitSampleTest.m */; };
+		6BF81518191B7BC300B3098D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF81517191B7BC300B3098D /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		6B9D0AD318E5C709007B35FC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B9D0AAB18E5C709007B35FC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6B9D0AB218E5C709007B35FC;
-			remoteInfo = YZToolKitDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		6B6CE36C191C8EBA00D2021A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6B6CE36D191C8EBA00D2021A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		6B9D0AB318E5C709007B35FC /* YZToolKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZToolKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B9D0AB618E5C709007B35FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6B9D0AB818E5C709007B35FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,13 +42,20 @@
 		6B9D0AC518E5C709007B35FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6B9D0AC618E5C709007B35FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6B9D0AC818E5C709007B35FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6B9D0ACE18E5C709007B35FC /* YZToolKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZToolKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B9D0ACF18E5C709007B35FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6B9D0AD718E5C709007B35FC /* YZToolKitDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YZToolKitDemoTests-Info.plist"; sourceTree = "<group>"; };
-		6B9D0AD918E5C709007B35FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6B9D0ADB18E5C709007B35FC /* YZToolKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZToolKitDemoTests.m; sourceTree = "<group>"; };
 		6B9D0AE518E5C7E6007B35FC /* libYZToolKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYZToolKit.a; path = "lib/Release-iphoneos/libYZToolKit.a"; sourceTree = "<group>"; };
 		6B9D0B1418E5D711007B35FC /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		6BF8149D191B616400B3098D /* YZToolKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZToolKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF814A3191B616400B3098D /* YZToolKitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YZToolKitTest-Info.plist"; sourceTree = "<group>"; };
+		6BF814A5191B616400B3098D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BF814A7191B616400B3098D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BF814A9191B616400B3098D /* YZToolKitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YZToolKitTest-Prefix.pch"; sourceTree = "<group>"; };
+		6BF814AD191B616400B3098D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6BF814C7191B619D00B3098D /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = ../../GHUnitIOS/GHUnitIOS.framework; sourceTree = "<group>"; };
+		6BF814C8191B619D00B3098D /* GHUnitIOSTestMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GHUnitIOSTestMain.m; path = ../../GHUnitIOS/GHUnitIOSTestMain.m; sourceTree = "<group>"; };
+		6BF814CB191B61E100B3098D /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		6BF814D1191B62BC00B3098D /* GHUnitSampleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GHUnitSampleTest.m; path = ../GHUnitSampleTest.m; sourceTree = "<group>"; };
+		6BF81517191B7BC300B3098D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,13 +71,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B9D0ACB18E5C709007B35FC /* Frameworks */ = {
+		6BF8149A191B616400B3098D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B9D0AD018E5C709007B35FC /* XCTest.framework in Frameworks */,
-				6B9D0AD218E5C709007B35FC /* UIKit.framework in Frameworks */,
-				6B9D0AD118E5C709007B35FC /* Foundation.framework in Frameworks */,
+				6BF81518191B7BC300B3098D /* AssetsLibrary.framework in Frameworks */,
+				6BF814CC191B61E100B3098D /* GHUnitIOS.framework in Frameworks */,
+				6BF8149F191B616400B3098D /* CoreGraphics.framework in Frameworks */,
+				6BF814A0191B616400B3098D /* UIKit.framework in Frameworks */,
+				6BF8149E191B616400B3098D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				6B9D0ABC18E5C709007B35FC /* YZToolKitDemo */,
-				6B9D0AD518E5C709007B35FC /* YZToolKitDemoTests */,
+				6BF814A1191B616400B3098D /* YZToolKitTest */,
 				6B9D0AB518E5C709007B35FC /* Frameworks */,
 				6B9D0AB418E5C709007B35FC /* Products */,
 			);
@@ -94,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				6B9D0AB318E5C709007B35FC /* YZToolKitDemo.app */,
-				6B9D0ACE18E5C709007B35FC /* YZToolKitDemoTests.xctest */,
+				6BF8149D191B616400B3098D /* YZToolKitTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +108,10 @@
 		6B9D0AB518E5C709007B35FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6BF81517191B7BC300B3098D /* AssetsLibrary.framework */,
+				6BF814CB191B61E100B3098D /* GHUnitIOS.framework */,
+				6BF814C7191B619D00B3098D /* GHUnitIOS.framework */,
+				6BF814C8191B619D00B3098D /* GHUnitIOSTestMain.m */,
 				6B9D0B1418E5D711007B35FC /* libxml2.dylib */,
 				6B9D0AE518E5C7E6007B35FC /* libYZToolKit.a */,
 				6B9D0AB618E5C709007B35FC /* Foundation.framework */,
@@ -117,6 +127,8 @@
 			children = (
 				6B9D0AC518E5C709007B35FC /* AppDelegate.h */,
 				6B9D0AC618E5C709007B35FC /* AppDelegate.m */,
+				6B6CE36C191C8EBA00D2021A /* MainViewController.h */,
+				6B6CE36D191C8EBA00D2021A /* MainViewController.m */,
 				6B9D0AC818E5C709007B35FC /* Images.xcassets */,
 				6B9D0ABD18E5C709007B35FC /* Supporting Files */,
 			);
@@ -134,20 +146,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6B9D0AD518E5C709007B35FC /* YZToolKitDemoTests */ = {
+		6BF814A1191B616400B3098D /* YZToolKitTest */ = {
 			isa = PBXGroup;
 			children = (
-				6B9D0ADB18E5C709007B35FC /* YZToolKitDemoTests.m */,
-				6B9D0AD618E5C709007B35FC /* Supporting Files */,
+				6BF814D1191B62BC00B3098D /* GHUnitSampleTest.m */,
+				6BF814AD191B616400B3098D /* Images.xcassets */,
+				6BF814A2191B616400B3098D /* Supporting Files */,
 			);
-			path = YZToolKitDemoTests;
+			path = YZToolKitTest;
 			sourceTree = "<group>";
 		};
-		6B9D0AD618E5C709007B35FC /* Supporting Files */ = {
+		6BF814A2191B616400B3098D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6B9D0AD718E5C709007B35FC /* YZToolKitDemoTests-Info.plist */,
-				6B9D0AD818E5C709007B35FC /* InfoPlist.strings */,
+				6BF814A3191B616400B3098D /* YZToolKitTest-Info.plist */,
+				6BF814A4191B616400B3098D /* InfoPlist.strings */,
+				6BF814A7191B616400B3098D /* main.m */,
+				6BF814A9191B616400B3098D /* YZToolKitTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -172,23 +187,22 @@
 			productReference = 6B9D0AB318E5C709007B35FC /* YZToolKitDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6B9D0ACD18E5C709007B35FC /* YZToolKitDemoTests */ = {
+		6BF8149C191B616400B3098D /* YZToolKitTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B9D0AE218E5C709007B35FC /* Build configuration list for PBXNativeTarget "YZToolKitDemoTests" */;
+			buildConfigurationList = 6BF814C1191B616400B3098D /* Build configuration list for PBXNativeTarget "YZToolKitTest" */;
 			buildPhases = (
-				6B9D0ACA18E5C709007B35FC /* Sources */,
-				6B9D0ACB18E5C709007B35FC /* Frameworks */,
-				6B9D0ACC18E5C709007B35FC /* Resources */,
+				6BF81499191B616400B3098D /* Sources */,
+				6BF8149A191B616400B3098D /* Frameworks */,
+				6BF8149B191B616400B3098D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6B9D0AD418E5C709007B35FC /* PBXTargetDependency */,
 			);
-			name = YZToolKitDemoTests;
-			productName = YZToolKitDemoTests;
-			productReference = 6B9D0ACE18E5C709007B35FC /* YZToolKitDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = YZToolKitTest;
+			productName = YZToolKitTest;
+			productReference = 6BF8149D191B616400B3098D /* YZToolKitTest.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -198,11 +212,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
-				TargetAttributes = {
-					6B9D0ACD18E5C709007B35FC = {
-						TestTargetID = 6B9D0AB218E5C709007B35FC;
-					};
-				};
 			};
 			buildConfigurationList = 6B9D0AAE18E5C709007B35FC /* Build configuration list for PBXProject "YZToolKitDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -217,7 +226,7 @@
 			projectRoot = "";
 			targets = (
 				6B9D0AB218E5C709007B35FC /* YZToolKitDemo */,
-				6B9D0ACD18E5C709007B35FC /* YZToolKitDemoTests */,
+				6BF8149C191B616400B3098D /* YZToolKitTest */,
 			);
 		};
 /* End PBXProject section */
@@ -232,11 +241,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B9D0ACC18E5C709007B35FC /* Resources */ = {
+		6BF8149B191B616400B3098D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B9D0ADA18E5C709007B35FC /* InfoPlist.strings in Resources */,
+				6BF814A6191B616400B3098D /* InfoPlist.strings in Resources */,
+				6BF814AE191B616400B3098D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,27 +258,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B9D0AC718E5C709007B35FC /* AppDelegate.m in Sources */,
+				6B6CE36E191C8EBA00D2021A /* MainViewController.m in Sources */,
 				6B9D0AC318E5C709007B35FC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B9D0ACA18E5C709007B35FC /* Sources */ = {
+		6BF81499191B616400B3098D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B9D0ADC18E5C709007B35FC /* YZToolKitDemoTests.m in Sources */,
+				6BF814D2191B62BC00B3098D /* GHUnitSampleTest.m in Sources */,
+				6BF814A8191B616400B3098D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6B9D0AD418E5C709007B35FC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6B9D0AB218E5C709007B35FC /* YZToolKitDemo */;
-			targetProxy = 6B9D0AD318E5C709007B35FC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6B9D0ABF18E5C709007B35FC /* InfoPlist.strings */ = {
@@ -279,10 +283,10 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		6B9D0AD818E5C709007B35FC /* InfoPlist.strings */ = {
+		6BF814A4191B616400B3098D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6B9D0AD918E5C709007B35FC /* en */,
+				6BF814A5191B616400B3098D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -400,43 +404,59 @@
 			};
 			name = Release;
 		};
-		6B9D0AE318E5C709007B35FC /* Debug */ = {
+		6BF814C2191B616400B3098D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YZToolKitDemo.app/YZToolKitDemo";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: JUNBO XIE (F648WK3EWP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JUNBO XIE (F648WK3EWP)";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/myz/Desktop/GHUnitIOS,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YZToolKitDemo/YZToolKitDemo-Prefix.pch";
+				GCC_PREFIX_HEADER = "YZToolKitTest/YZToolKitTest-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "YZToolKitDemoTests/YZToolKitDemoTests-Info.plist";
+				INFOPLIST_FILE = "YZToolKitTest/YZToolKitTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				PROVISIONING_PROFILE = "B55136A0-0478-404C-8270-2A50EDD6B761";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		6B9D0AE418E5C709007B35FC /* Release */ = {
+		6BF814C3191B616400B3098D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YZToolKitDemo.app/YZToolKitDemo";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Savvy Technology Co., Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shenzhen Savvy Technology Co., Ltd";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/myz/Desktop/GHUnitIOS,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YZToolKitDemo/YZToolKitDemo-Prefix.pch";
-				INFOPLIST_FILE = "YZToolKitDemoTests/YZToolKitDemoTests-Info.plist";
+				GCC_PREFIX_HEADER = "YZToolKitTest/YZToolKitTest-Prefix.pch";
+				INFOPLIST_FILE = "YZToolKitTest/YZToolKitTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				PROVISIONING_PROFILE = "987DEC65-66F3-49E6-A2C0-25998D38B093";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -461,11 +481,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B9D0AE218E5C709007B35FC /* Build configuration list for PBXNativeTarget "YZToolKitDemoTests" */ = {
+		6BF814C1191B616400B3098D /* Build configuration list for PBXNativeTarget "YZToolKitTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B9D0AE318E5C709007B35FC /* Debug */,
-				6B9D0AE418E5C709007B35FC /* Release */,
+				6BF814C2191B616400B3098D /* Debug */,
+				6BF814C3191B616400B3098D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
